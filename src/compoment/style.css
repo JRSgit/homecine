@@ -73,7 +73,7 @@ ul li a:hover
 {
   margin: 0px;
   padding: 5px;
-  color: rgb(22, 49, 197);
+  color: rgb(219, 136, 11);
   font-size: 26px;
   text-align: center;
 }
@@ -165,11 +165,11 @@ footer
   margin-top: 20px;
 }
 footer a {
-  width: 150px;
+  width: 600px;
   position: relative;
   display: block;
   padding: 10px 20px;
-  margin: 20px 0;
+  margin: 0 auto;
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
@@ -191,18 +191,30 @@ footer a:hover
     padding: 0 0;
     background: rgba(0,0,0,.5);
   }
-  .toggle 
-{
-  display: block;
-}
+  /* .toggle 
+  {
+    display: block;
+    transition: .5s;
+    
+  }
+  .toggle:hover{
+    background: #fff;
+    color: #000;
+    border-radius: 7px;
+  } */
   header ul {
     width: 100%;
     top: -4px;
     display: none;
   } 
-  header ul.active{
-    display: block;
-  }
+  /* header ul.active{
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+    position: relative;
+    width: 300px;
+    
+  } */
   header ul li a {
     margin: 0;
     display: block;
@@ -229,9 +241,27 @@ footer a:hover
 }
 .titulo h1
 {
+
+  width: 300px;
   font-size: 20px;
+  position: relative;
+  top: 10px;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 0;
+  color: rgb(219, 136, 11);
 }
 .titulo h3 {
+  display: none;
+  overflow: hidden;
   font-size: 16px;
+}
+header img{
+  display: block;
+  height: 80px;
+  margin: 0 auto;
+}
+footer a{
+  width: 200px;
 }
 }
