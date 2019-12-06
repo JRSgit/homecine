@@ -15,7 +15,6 @@ function Main () {
   <div>
     <header>
           <a href="" className="logo"><img src={logo}/></a>
-          <a className="toggle">Menu</a>
         <ul className="active">
           <li><a href="">Home</a></li>
           <li><a target="blank" href="https://www.meuteste.me/c4c816b37cdd8af70647d4d9093795cf-a8e16ad84e175e7ce23d123adfc03d54
